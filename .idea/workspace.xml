@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63bab74-6c69-427e-a58a-d4e7c81d660c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio-app/src/pages/AboutPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-app/src/pages/ContactPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-app/src/components/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-app/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-app/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590709661832</updated>
-      <workItem from="1590709665560" duration="5795000" />
+      <workItem from="1590709665560" duration="6734000" />
     </task>
     <task id="LOCAL-00001" summary="header added with working pages for home about and contact">
       <created>1590712609767</created>
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590715024901</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added about and contact page with react bootstrap router">
+      <created>1590715522222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590715522222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,17 +94,18 @@
     <MESSAGE value="header added with working pages for home about and contact" />
     <MESSAGE value="adding footer" />
     <MESSAGE value="adding HomePage section" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding HomePage section" />
+    <MESSAGE value="added about and contact page with react bootstrap router" />
+    <option name="LAST_COMMIT_MESSAGE" value="added about and contact page with react bootstrap router" />
   </component>
   <component name="WindowStateProjectService">
     <state x="383" y="534" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590713537262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="383" y="534" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590713537262" />
-    <state x="227" y="190" key="CommitChangelistDialog2" timestamp="1590715024326">
+    <state x="227" y="190" key="CommitChangelistDialog2" timestamp="1590715521738">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="227" y="190" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590715024326" />
+    <state x="227" y="190" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590715521738" />
     <state x="516" y="601" width="552" height="270" key="Github.ShareDialog" timestamp="1590711025382">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -108,9 +114,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="387" y="321" key="Github.UntrackedFilesDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590711031921" />
-    <state x="232" y="428" key="Vcs.Push.Dialog.v2" timestamp="1590715026923">
+    <state x="232" y="428" key="Vcs.Push.Dialog.v2" timestamp="1590715524056">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="232" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590715026923" />
+    <state x="232" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590715524056" />
   </component>
 </project>
