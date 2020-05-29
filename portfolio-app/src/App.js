@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 import Footer from "./components/Footer";
+import Home from "./pages/HomePage";
 
 class App extends React.Component {
 
@@ -48,6 +49,7 @@ class App extends React.Component {
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
+                    <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Footer />
                 </Container>
             </Router>
