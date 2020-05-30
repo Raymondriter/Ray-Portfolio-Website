@@ -1,40 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a23ff15f-7c87-497a-afe7-1b9eb102f952" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/assets/images/blockland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/assets/images/uwp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/assets/images/vikingcoin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/components/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/components/CardInfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/components/Carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/components/Content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/components/Hero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/pages/AboutPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/pages/ContactPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/pages/HomePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-app/src/setupTests.js" beforeDir="false" />
+    <list default="true" id="a63bab74-6c69-427e-a58a-d4e7c81d660c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio-app/src/components/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-app/src/pages/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-app/src/pages/AboutPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,36 +12,146 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Raymondriter &lt;rpr2998@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1cbe5tsva69rc3UADwvb82Cm2tU" />
+  <component name="ProjectId" id="1cYdrp2ob07c4mbGtXhJmj9hpae" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSU/Spring 2020/EEC 494-2 Senior Design II/vikingcoin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rpr29\OneDrive - Cleveland State University\RayWebsite\portfolio-app\src\pages" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a23ff15f-7c87-497a-afe7-1b9eb102f952" name="Default Changelist" comment="" />
-      <created>1590801539403</created>
+      <changelist id="a63bab74-6c69-427e-a58a-d4e7c81d660c" name="Default Changelist" comment="" />
+      <created>1590709661832</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590801539403</updated>
-      <workItem from="1590801543182" duration="80000" />
+      <updated>1590709661832</updated>
+      <workItem from="1590709665560" duration="6993000" />
+      <workItem from="1590716678028" duration="70000" />
+      <workItem from="1590716762949" duration="94000" />
+      <workItem from="1590793221307" duration="5709000" />
     </task>
+    <task id="LOCAL-00001" summary="header added with working pages for home about and contact">
+      <created>1590712609767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590712609767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding footer">
+      <created>1590714022049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590714022049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding HomePage section">
+      <created>1590715024901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590715024901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added about and contact page with react bootstrap router">
+      <created>1590715522222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590715522222</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added some homepage content to project got properties working on it">
+      <created>1590716657298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590716657298</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added some homepage content to project got properties working on it">
+      <created>1590716845913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590716845913</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added carousel with links and images">
+      <created>1590798339631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590798339631</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="header added with working pages for home about and contact" />
+    <MESSAGE value="adding footer" />
+    <MESSAGE value="adding HomePage section" />
+    <MESSAGE value="added about and contact page with react bootstrap router" />
+    <MESSAGE value="added some homepage content to project got properties working on it" />
+    <MESSAGE value="added carousel with links and images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added carousel with links and images" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="419" y="441" key="FileChooserDialogImpl" timestamp="1590801597690">
+    <state x="383" y="534" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590713537262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="419" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590801597690" />
+    <state x="383" y="534" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590713537262" />
+    <state x="227" y="190" key="CommitChangelistDialog2" timestamp="1590798339005">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="227" y="190" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590798339005" />
+    <state x="420" y="454" key="FileChooserDialogImpl" timestamp="1590794893342">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="420" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590794893342" />
+    <state x="516" y="601" width="552" height="270" key="Github.ShareDialog" timestamp="1590711025382">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="516" y="601" width="552" height="270" key="Github.ShareDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590711025382" />
+    <state x="387" y="321" key="Github.UntrackedFilesDialog" timestamp="1590711031921">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="387" y="321" key="Github.UntrackedFilesDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590711031921" />
+    <state x="232" y="428" key="Vcs.Push.Dialog.v2" timestamp="1590798422325">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="232" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1590798422325" />
   </component>
 </project>
