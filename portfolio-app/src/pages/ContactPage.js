@@ -2,6 +2,8 @@ import React from "react";
 
 import Hero from "../components/Hero";
 import Content from "../components/Content";
+import Axios from 'axios';
+
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
@@ -14,10 +16,11 @@ class ContactPage extends React.Component {
             name: '',
             email: '',
             message: '',
-            disabled: '',
-            emailSent: '',
+            disabled: false,
+            emailSent: null,
         }
     }
+
 
     handleChange = (event) => {
         const target = event.target;
@@ -32,10 +35,34 @@ class ContactPage extends React.Component {
     handleSubmit = (event) => {
         event.preventDefault();
 
+        console.log(event.target);
+
         this.setState({
-            disabled: true,
-            emailSent: false
-        })
+            disabled: true
+        });
+
+        Axios.post('http://192.168.56.1:3030/api/email', this.state)
+            .then(res => {
+                if (res.data.success) {
+                    this.setState({
+                        disabled: false,
+                        emailSent: true
+                    });
+                } else {
+                    this.setState({
+                        disabled: false,
+                        emailSent: false
+                    });
+                }
+            })
+            .catch(err => {
+                console.log(err);
+
+                this.setState({
+                    disabled: false,
+                    emailSent: false
+                });
+            })
     }
 
     render() {
@@ -51,6 +78,7 @@ class ContactPage extends React.Component {
                                           onChange={this.handleChange}/>
                         </Form.Group>
 
+
                         <Form.Group>
                             <Form.Label htmlFor="email">Email</Form.Label>
                             <Form.Control id="email" name="email" type="email" value={this.state.email}
@@ -63,12 +91,13 @@ class ContactPage extends React.Component {
                                           onChange={this.handleChange}/>
                         </Form.Group>
 
-                        <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                        <Button className="d-inline-block" variant="primary" type="submit"
+                                disabled={this.state.disabled}>
                             Send
                         </Button>
 
-                        {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p> }
-                        {this.state.emailSent === false && <p className="d-inline success-msg">Email Not Sent</p> }
+                        {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
+                        {this.state.emailSent === false && <p className="d-inline success-msg">Email Not Sent</p>}
 
                     </Form>
                 </Content>
